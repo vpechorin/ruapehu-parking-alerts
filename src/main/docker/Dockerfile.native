@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/parking-spaces .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/ruapehu-parking-alerts .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/parking-spaces
+# docker run -i --rm -p 8080:8080 quarkus/ruapehu-parking-alerts
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.1
